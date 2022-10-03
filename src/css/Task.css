@@ -54,6 +54,7 @@ body {
 }
 
 .task-list-title {
+  float: center;
   margin: auto;
   width: 50vh;
   color: aliceblue;
@@ -64,3 +65,4 @@ body {
   grid-template-columns: 20% 20% 20% 20%;
   grid-gap: 6%;
 }
+
