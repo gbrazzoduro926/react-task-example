@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, 
+body {
+  background-color: black;
+}
+
+.main {
+  background-color: black;
+  height: 100%;
+}
+
+.form  {
+  margin: auto;
+  max-width: 60vh;
+  height: 45vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center; 
+  background-color: #160d3c;
+  font-size: 2em;
+  color: aliceblue;
+  border-radius: 25px;
+}
+
+.button-save-form {
+  margin: auto;
+  max-width: 15vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task-toast {
+  padding: 1vh 1vh 0 1vh;
+
+
+}
+
+.task-toast-header{
+  overflow-wrap: anywhere;
+}
+
+.task-toast-description {
+  overflow-wrap: anywhere;
+}
+
+.button-claer {
+  float: left;
+}
+
+.task-list-title {
+  margin: auto;
+  width: 50vh;
+  color: aliceblue;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-gap: 6%;
+}
